@@ -1,0 +1,947 @@
+{
+    "plus_code": {
+        "compound_code": "RP88+453 Toronto, ON, Canada",
+        "global_code": "87M2RP88+453"
+    },
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "68",
+                    "short_name": "68",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Campania Crescent",
+                    "short_name": "Campania Crescent",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "M1V 2E9",
+                    "short_name": "M1V 2E9",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "68 Campania Crescent, Scarborough, ON M1V 2E9, Canada",
+            "geometry": {
+                "location": {
+                    "lat": 43.8152097,
+                    "lng": -79.2846363
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.81655868029151,
+                        "lng": -79.2832873197085
+                    },
+                    "southwest": {
+                        "lat": 43.81386071970851,
+                        "lng": -79.28598528029151
+                    }
+                }
+            },
+            "place_id": "ChIJIUW9qlbR1IkREN2I3oz6BUM",
+            "plus_code": {
+                "compound_code": "RP88+34 Scarborough, Toronto, ON, Canada",
+                "global_code": "87M2RP88+34"
+            },
+            "types": [
+                "street_address"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "66",
+                    "short_name": "66",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Campania Crescent",
+                    "short_name": "Campania Crescent",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "M1V 2E9",
+                    "short_name": "M1V 2E9",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "66 Campania Crescent, Scarborough, ON M1V 2E9, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8152312,
+                        "lng": -79.2844982
+                    },
+                    "southwest": {
+                        "lat": 43.8150416,
+                        "lng": -79.2847548
+                    }
+                },
+                "location": {
+                    "lat": 43.8150868,
+                    "lng": -79.2846488
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8164853802915,
+                        "lng": -79.28327751970849
+                    },
+                    "southwest": {
+                        "lat": 43.8137874197085,
+                        "lng": -79.28597548029151
+                    }
+                }
+            },
+            "place_id": "ChIJY3ooq1bR1IkRi3Kz8cnU4mA",
+            "types": [
+                "premise"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "RP88+45",
+                    "short_name": "RP88+45",
+                    "types": [
+                        "plus_code"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "RP88+45 Toronto, ON, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.815375,
+                        "lng": -79.2845
+                    },
+                    "southwest": {
+                        "lat": 43.81525,
+                        "lng": -79.28462499999999
+                    }
+                },
+                "location": {
+                    "lat": 43.8152522,
+                    "lng": -79.2845772
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8166614802915,
+                        "lng": -79.28321351970848
+                    },
+                    "southwest": {
+                        "lat": 43.8139635197085,
+                        "lng": -79.2859114802915
+                    }
+                }
+            },
+            "place_id": "GhIJ-34gL1roRUAR_MtJgzbSU8A",
+            "plus_code": {
+                "compound_code": "RP88+45 Toronto, ON, Canada",
+                "global_code": "87M2RP88+45"
+            },
+            "types": [
+                "plus_code"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "36-96",
+                    "short_name": "36-96",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Campania Crescent",
+                    "short_name": "Campania Crescent",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "M1V 2E9",
+                    "short_name": "M1V 2E9",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "36-96 Campania Crescent, Scarborough, ON M1V 2E9, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.81669369999999,
+                        "lng": -79.2849332
+                    },
+                    "southwest": {
+                        "lat": 43.8151194,
+                        "lng": -79.2858828
+                    }
+                },
+                "location": {
+                    "lat": 43.8156901,
+                    "lng": -79.28504740000001
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8172555302915,
+                        "lng": -79.2840590197085
+                    },
+                    "southwest": {
+                        "lat": 43.8145575697085,
+                        "lng": -79.28675698029151
+                    }
+                }
+            },
+            "place_id": "ChIJMy-ZGlTR1IkRxqo5gKcrqA4",
+            "types": [
+                "route"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "M1V 2E9",
+                    "short_name": "M1V 2E9",
+                    "types": [
+                        "postal_code"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Scarborough, ON M1V 2E9, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.81655079999999,
+                        "lng": -79.2840097
+                    },
+                    "southwest": {
+                        "lat": 43.8144996,
+                        "lng": -79.2870756
+                    }
+                },
+                "location": {
+                    "lat": 43.8148922,
+                    "lng": -79.2854579
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.81687418029149,
+                        "lng": -79.2840097
+                    },
+                    "southwest": {
+                        "lat": 43.81417621970849,
+                        "lng": -79.2870756
+                    }
+                }
+            },
+            "place_id": "ChIJ1Xc4HFTR1IkR4IKenLkEeSk",
+            "types": [
+                "postal_code"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Port Royal",
+                    "short_name": "Port Royal",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "M1V",
+                    "short_name": "M1V",
+                    "types": [
+                        "postal_code",
+                        "postal_code_prefix"
+                    ]
+                }
+            ],
+            "formatted_address": "Port Royal, Toronto, ON M1V, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8283661,
+                        "lng": -79.2815064
+                    },
+                    "southwest": {
+                        "lat": 43.8126674,
+                        "lng": -79.2972565
+                    }
+                },
+                "location": {
+                    "lat": 43.8178829,
+                    "lng": -79.2873953
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8283661,
+                        "lng": -79.2815064
+                    },
+                    "southwest": {
+                        "lat": 43.8126674,
+                        "lng": -79.2972565
+                    }
+                }
+            },
+            "place_id": "ChIJR0dVTVXR1IkRciC5WSu7FVk",
+            "types": [
+                "neighborhood",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "M1V",
+                    "short_name": "M1V",
+                    "types": [
+                        "postal_code",
+                        "postal_code_prefix"
+                    ]
+                },
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Scarborough, ON M1V, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8355049,
+                        "lng": -79.24305199999999
+                    },
+                    "southwest": {
+                        "lat": 43.7989869,
+                        "lng": -79.316912
+                    }
+                },
+                "location": {
+                    "lat": 43.8152522,
+                    "lng": -79.2845772
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8355049,
+                        "lng": -79.24305199999999
+                    },
+                    "southwest": {
+                        "lat": 43.7989869,
+                        "lng": -79.316912
+                    }
+                }
+            },
+            "place_id": "ChIJvV70iVLR1IkRbl70TkLO7Zo",
+            "types": [
+                "postal_code",
+                "postal_code_prefix"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Scarborough",
+                    "short_name": "Scarborough",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Scarborough, Toronto, ON, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8554447,
+                        "lng": -79.1161286
+                    },
+                    "southwest": {
+                        "lat": 43.671154,
+                        "lng": -79.341341
+                    }
+                },
+                "location": {
+                    "lat": 43.7764258,
+                    "lng": -79.2317521
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8554447,
+                        "lng": -79.1161286
+                    },
+                    "southwest": {
+                        "lat": 43.671154,
+                        "lng": -79.341341
+                    }
+                }
+            },
+            "place_id": "ChIJCbZmnl7Q1IkRe4BHJM5jbvA",
+            "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Toronto, ON, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8554579,
+                        "lng": -79.1168971
+                    },
+                    "southwest": {
+                        "lat": 43.5810245,
+                        "lng": -79.639219
+                    }
+                },
+                "location": {
+                    "lat": 43.653226,
+                    "lng": -79.3831843
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8554579,
+                        "lng": -79.1168971
+                    },
+                    "southwest": {
+                        "lat": 43.5810245,
+                        "lng": -79.639219
+                    }
+                }
+            },
+            "place_id": "ChIJpTvG15DL1IkRd8S0KlBVNTI",
+            "types": [
+                "locality",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Toronto",
+                    "short_name": "Toronto",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Toronto, ON, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 43.8554579,
+                        "lng": -79.00248100000002
+                    },
+                    "southwest": {
+                        "lat": 43.45829699999999,
+                        "lng": -79.639219
+                    }
+                },
+                "location": {
+                    "lat": 43.6689775,
+                    "lng": -79.29021329999999
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.8554579,
+                        "lng": -79.00248100000002
+                    },
+                    "southwest": {
+                        "lat": 43.45829699999999,
+                        "lng": -79.639219
+                    }
+                }
+            },
+            "place_id": "ChIJ5b2RG4_L1IkRDtQ2gFEjLv4",
+            "types": [
+                "administrative_area_level_2",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Ontario",
+                    "short_name": "ON",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Ontario, Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 56.931393,
+                        "lng": -74.3206479
+                    },
+                    "southwest": {
+                        "lat": 41.6765559,
+                        "lng": -95.1562271
+                    }
+                },
+                "location": {
+                    "lat": 51.253775,
+                    "lng": -85.323214
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 56.931393,
+                        "lng": -74.3206479
+                    },
+                    "southwest": {
+                        "lat": 41.6765559,
+                        "lng": -95.1562271
+                    }
+                }
+            },
+            "place_id": "ChIJrxNRX7IFzkwRCR5iKVZC-HA",
+            "types": [
+                "administrative_area_level_1",
+                "political"
+            ]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "Canada",
+                    "short_name": "CA",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Canada",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 83.6381,
+                        "lng": -50.9766
+                    },
+                    "southwest": {
+                        "lat": 41.6765559,
+                        "lng": -141.00187
+                    }
+                },
+                "location": {
+                    "lat": 56.130366,
+                    "lng": -106.346771
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 83.6381,
+                        "lng": -50.9766
+                    },
+                    "southwest": {
+                        "lat": 41.6765559,
+                        "lng": -141.00187
+                    }
+                }
+            },
+            "place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+            "types": [
+                "country",
+                "political"
+            ]
+        }
+    ],
+    "status": "OK"
+}
