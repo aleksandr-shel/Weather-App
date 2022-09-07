@@ -1,5 +1,14 @@
 
+let current = {
 
+}
+
+let forecast = []
+
+
+function setCurrentWeather(current){
+
+}
 
 
 //this one definetely better, it comes with the current weather too
