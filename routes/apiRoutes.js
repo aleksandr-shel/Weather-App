@@ -2,8 +2,9 @@ let express = require('express');
 let router = express.Router();
 let axios = require('axios')
 let weatherForecastData = require('../weather_forecast.json')
-const googleApiKey = "AIzaSyBnsJDfhGj4TYhZX7FqEZr0N9rPbTxr0lw";
-const weatherApiKey = '4cb14a2ac1a24cfbb5172828220509';
+require('dotenv').config();
+const googleApiKey = process.env.GOOGLE_API_KEY;
+const weatherApiKey = process.env.WEATHER_API_KEY;
 
 
 function getWeatherData(lat, lon){
@@ -43,14 +44,20 @@ async function getLocationFromGoogleByCoords(latitude, longitude){
 
 
 router.get('/weatherForecast', async (req,res)=>{
-    res.send(weatherForecastData);
+    // res.send(weatherForecastData);
     
     //uncomment when ready
-    // const {lat, lon} = req.query;
+    const {lat, lon} = req.query;
 
-    // const data = await getWeatherForecast(lat, lon)
-    // res.send(data)
+    const data = await getWeatherForecast(lat, lon)
+    res.send(data)
 })
 
+
+router.get('/location', async(req,res)=>{
+    const {lat, lon} = req.query;
+    const data = await getLocationFromGoogleByCoords(lat, lon)
+    res.send(data)
+})
 
 module.exports = router;
