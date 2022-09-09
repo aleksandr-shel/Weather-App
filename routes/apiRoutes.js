@@ -2,10 +2,11 @@ let express = require('express');
 let router = express.Router();
 let axios = require('axios')
 let weatherForecastData = require('../weather_forecast.json')
+let newsDataTest = require('../news_data_test.json')
 require('dotenv').config();
 const googleApiKey = process.env.GOOGLE_API_KEY;
 const weatherApiKey = process.env.WEATHER_API_KEY;
-
+const newsApiKey = process.env.NEWS_API_KEY;
 
 function getWeatherData(lat, lon){
     let apiUrl = `http://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${lat},${lon}`
@@ -44,15 +45,19 @@ async function getLocationFromGoogleByCoords(latitude, longitude){
 
 
 router.get('/weatherForecast', async (req,res)=>{
-    // res.send(weatherForecastData);
+    res.send(weatherForecastData);
     
     //uncomment when ready
-    const {lat, lon} = req.query;
+    // const {lat, lon} = req.query;
 
-    const data = await getWeatherForecast(lat, lon)
-    res.send(data)
+    // const data = await getWeatherForecast(lat, lon)
+    // res.send(data)
 })
 
+
+router.get('/tech-news', async(req,res)=>{
+    res.send(newsDataTest);
+})
 
 router.get('/location', async(req,res)=>{
     const {lat, lon} = req.query;

@@ -4,13 +4,13 @@ import ForecastDay from './ForecastDay';
 
 export default function ForecastSequence(){
 
-    const {forecast} = useSelector(state => state.weatherReducer);
+    const {forecast, selectedDay} = useSelector(state => state.weatherReducer);
 
     return (
         <div className="days-sequence-wrapper">
             <ul className="days-sequence">
                 {forecast.map((day, index)=>(
-                    <li key={index}>
+                    <li key={index} style={{backgroundColor: selectedDay === day ? 'gainsboro':''}}>
                         <ForecastDay day={day}/>
                     </li>
                 ))}

@@ -7,8 +7,7 @@ export function fetchWeatherData(){
     return async (dispatch)=>{
         dispatch(setLoading(true));
         const data = await agent.Weather.getData();
-        console.log(data.current);
-        console.log(data.forecast.forecastday);
+        console.log(data);
         dispatch(setCurrentWeather(data.current));
         dispatch(setForecast(data.forecast.forecastday));
         dispatch(setLoading(false))
