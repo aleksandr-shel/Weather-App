@@ -1,9 +1,5 @@
 import axios from 'axios';
 
-
-let lat = 43.8152522
-let lon = -79.2845772
-
 class Coords{
     latitude;
     longitude;
@@ -37,7 +33,6 @@ class Coords{
         // console.log(`Your location: (${latitude},${longitude})`);
         this.latitude = latitude;
         this.longitude = longitude;
-        console.log(latitude, longitude)
     }
 
     // handle error case
@@ -66,9 +61,8 @@ const Weather = {
     getData: ()=> requests.get(`/weatherForecast?lat=${coord.latitude}&lon=${coord.longitude}`),
 }
 
-
 const News = {
-    getNews: ()=>axios.get('https://newsapi.org/v2/everything?q=technology&apiKey=45f1bdb25ad24da3b8756f1ababb2186').then(responseBody)
+    getNews: () => requests.get(`/tech-news`)
 }
 
 const agent = {

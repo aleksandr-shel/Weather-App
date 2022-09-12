@@ -22,7 +22,7 @@ export default function SelectedDayGraph(){
           label: 'React Charts',
           data: selectedDay.hour
                 // .filter((h)=>{
-                //     return new Date(h.time).getTime() >= new Date().getTime() - 65 * 60 * 1000;
+                //     return new Date(h.time).getTime() >= new Date().getTime() - 75 * 60 * 1000;
                 // }),
         },
       ]
