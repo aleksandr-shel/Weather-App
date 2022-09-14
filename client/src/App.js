@@ -9,9 +9,6 @@ function App() {
     return (
         <>
             <Grid container spacing={2}>
-                {/* <Grid item xs={2.5}>
-                    <Clothes/>
-                </Grid> */}
                 <Grid item xs={9}>
                     <WeatherWrapper/>
                     <Clothes/>

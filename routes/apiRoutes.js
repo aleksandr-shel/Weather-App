@@ -32,8 +32,13 @@ async function getData(url){
 
 
 //this one definetely better, it comes with the current weather too
-async function getWeatherForecast(lat, lon, days=7){
+async function getWeatherForecast(lat, lon, days=5){
     let apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${weatherApiKey}&q=${lat},${lon}&days=${days}`
+    return await getData(apiUrl);
+}
+
+async function getWeatherForecastByString(q, days=5){
+    let apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${weatherApiKey}&q=${q}&days=${days}`
     return await getData(apiUrl);
 }
 
@@ -43,7 +48,7 @@ async function getLocationFromGoogleByCoords(latitude, longitude){
     return await getData(url);
 }
 
-async function getNews(q = 'technology'){
+async function getNews(q = 'tech'){
     const url = `https://newsapi.org/v2/everything?q=${q}&apiKey=${newsApiKey}&sortBy=publishedAt`;
     return await getData(url);
 }
@@ -62,17 +67,23 @@ setInterval(async () => {
 
     const data = await getNews();
     saveJson(data, 'news_data.json');
-}, 60*60*1000);
+},60*60* 1000);
 
 
 router.get('/weatherForecast', async (req,res)=>{
-    res.send(weatherForecastData);
+    // res.send(weatherForecastData);
     
     //uncomment when ready
-    // const {lat, lon} = req.query;
+    const {q} = req.query;
+    if (q === undefined){
+        const {lat, lon} = req.query;
 
-    // const data = await getWeatherForecast(lat, lon)
-    // res.send(data)
+        const data = await getWeatherForecast(lat, lon)
+        res.send(data)
+    } else {
+        const data = await getWeatherForecastByString(q)
+        res.send(data)
+    }
 })
 
 

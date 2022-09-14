@@ -5,7 +5,8 @@ const initialState = {
     forecast: [],
     selectedDay: null,
     loading: true,
-    isCelsius: true
+    isCelsius: true,
+    location: {},
 }
 
 
@@ -31,11 +32,14 @@ const weatherSlice = createSlice({
         },
         setSelectedDay:(state, {payload})=>{
             state.selectedDay = payload;
+        },
+        setLocation:(state, {payload})=>{
+            state.location = payload;
         }
     }
 })
 
 
-export const {setCurrentWeather, setForecast, setLoading, setCelsius, setFahrenheit, setSelectedDay} = weatherSlice.actions
+export const {setCurrentWeather, setForecast, setLoading, setCelsius, setFahrenheit, setSelectedDay, setLocation} = weatherSlice.actions
 
 export default weatherSlice;

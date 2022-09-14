@@ -58,7 +58,8 @@ const requests = {
 }
 
 const Weather = {
-    getData: ()=> requests.get(`/weatherForecast?lat=${coord.latitude}&lon=${coord.longitude}`),
+    getCurrentLocationData: ()=> requests.get(`/weatherForecast?lat=${coord.latitude}&lon=${coord.longitude}`),
+    getAnotherLocationData: (q)=> requests.get(`/weatherForecast?q=${q}`),
 }
 
 const News = {

@@ -2,10 +2,11 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {Avatar, Card, Button, CardContent, CardActions, Typography, Divider} from '@mui/material'
 import { setCelsius, setFahrenheit } from '../../store/slices/weatherSlice';
+import InputLocation from './InputLocation';
 
 export default function CurrentWeather(){
     let iconSize = 4;
-    const {current, isCelsius} = useSelector(state => state.weatherReducer);
+    const {current, isCelsius, location} = useSelector(state => state.weatherReducer);
     const dispatch = useDispatch();
 
     function setCelsiusDegree(){
@@ -18,6 +19,7 @@ export default function CurrentWeather(){
 
     return(
         <div className='current-weather'>
+            <InputLocation/>
             <Card style={{display:'flex', justifyContent:'space-between'}}>
                 <div style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
                     <Avatar alt={current?.condition?.text} sx={{ width: `${iconSize}em`, height: `${iconSize}em`}} src={current?.condition?.icon} />
@@ -43,9 +45,17 @@ export default function CurrentWeather(){
                 </div>
                 <div style={{fontWeight:'lighter', display:'flex',justifyContent:'center', alignContent:'center',flexDirection:'column', marginRight:'1em', textAlign:'center'}}>
                     <p>
+                        {location.name}
+                        <span>{', '}</span>
+                        {location.region}
+                        <span>{', '}</span>
+                        {location.country}
+                    </p>
+                    <p>
                         <span>{new Date(new Date(current.last_updated).getTime() + new Date().getTimezoneOffset() * 60 * 1000).toLocaleString('default',{weekday:'short'})}</span>
                         {' '}
                         <span>{new Date(current.last_updated).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit', hour12:true})}</span>
+                        <span> Updated</span>
                     </p>
                     <p>
                         {current?.condition?.text}
