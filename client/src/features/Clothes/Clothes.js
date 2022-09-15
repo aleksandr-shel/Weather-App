@@ -7,6 +7,8 @@ export default function Clothes(){
     const {current, loading, forecast} = useSelector(state => state.weatherReducer);
 
 
+    //https://www.canada.ca/en/environment-climate-change/services/general-marine-weather-information/understanding-forecasts/beaufort-wind-scale-table.html
+
     function recommendBasedOnTemperature(temp){
         if (temp < -20){
             return "Better not go outside if you don't really need to. But if you have to then put on your warmest jacket."
@@ -25,13 +27,13 @@ export default function Clothes(){
         } 
     }
     // console.log('current', current);
-    // console.log('forecast[0]', forecast[0])
+    console.log('forecast[0]', forecast[0])
 
     if (loading) return null;
 
     return(
         <div className='clothes-recomendation'>
-            <h3>Recommendations</h3>
+            <h5>Recommendations</h5>
             {recommendBasedOnTemperature(current.temp_c)}
         </div>
     )

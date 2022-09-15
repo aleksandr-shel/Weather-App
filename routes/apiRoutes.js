@@ -25,7 +25,7 @@ async function getData(url){
     try{
         response = await axios.get(url);
     }catch(error){
-        console.log(error);
+        throw new Error(error);
     }
     return response.data;
 }
@@ -77,12 +77,22 @@ router.get('/weatherForecast', async (req,res)=>{
     const {q} = req.query;
     if (q === undefined){
         const {lat, lon} = req.query;
-
-        const data = await getWeatherForecast(lat, lon)
-        res.send(data)
+        let data;
+        try{
+            data = await getWeatherForecast(lat, lon)
+            res.send(data)
+        }catch(e){
+            res.end().status(400);
+        }
     } else {
-        const data = await getWeatherForecastByString(q)
-        res.send(data)
+        console.log(q)
+        let data;
+        try{
+            data = await getWeatherForecastByString(q)
+            res.send(data)
+        }catch(e){
+            res.end().status(400);
+        }
     }
 })
 

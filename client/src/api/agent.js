@@ -46,6 +46,14 @@ coord.getLocationCoords();
 
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
+axios.interceptors.response.use(async response => {
+    return response;
+}, (error)=>{
+    const {status} = error.response;
+    console.log(status);
+    return Promise.reject(error);
+})
+
 const responseBody = response =>{
     return response.data;
 }

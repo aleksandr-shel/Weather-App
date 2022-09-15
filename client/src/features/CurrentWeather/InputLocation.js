@@ -86,11 +86,11 @@ export default function InputLocation(){
     }
 
     return(
-        <div style={style}>
+        <div className='input-location-wrapper' style={style}>
             <form onSubmit={onSubmit}>
                 <input value={location} onChange={(e)=>{setLocation(e.target.value);}} placeholder="Enter location" />
             </form>
-            <p onClick={handleMyCurrentLocation} style={{color:'blue', textDecoration:'underline', cursor:'pointer'}}>My Current Location</p>
+            <p onClick={handleMyCurrentLocation} style={{color:'gray', textDecoration:'underline', cursor:'pointer'}}>My Current Location</p>
         </div>
     )
 }

@@ -20,10 +20,11 @@ export function fetchAnotherLocationWeatherData(q){
     return async (dispatch)=>{
         dispatch(setLoading(true));
         const data = await agent.Weather.getAnotherLocationData(q);
-        // console.log(data);
-        dispatch(setCurrentWeather(data.current));
-        dispatch(setForecast(data.forecast.forecastday));
-        dispatch(setLocation(data.location))
+        if (data !== ''){
+            dispatch(setCurrentWeather(data.current));
+            dispatch(setForecast(data.forecast.forecastday));
+            dispatch(setLocation(data.location))
+        }
         dispatch(setLoading(false))
     }
 }

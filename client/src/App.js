@@ -1,7 +1,6 @@
 import React from "react";
 import {Grid} from '@mui/material';
 import News from "./features/News/News";
-import Clothes from "./features/Clothes/Clothes";
 import WeatherWrapper from "./features/WeatherWrapper";
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
             <Grid container spacing={2}>
                 <Grid item xs={9}>
                     <WeatherWrapper/>
-                    <Clothes/>
                 </Grid>
                 <Grid item xs={3}>
                     <News/>

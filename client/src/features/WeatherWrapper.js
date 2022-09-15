@@ -6,6 +6,7 @@ import { Box, CircularProgress } from '@mui/material';
 import CurrentWeather from './CurrentWeather/CurrentWeather';
 import SelectedDayGraph from './SelectedDay/SelectedDayGraph';
 import ForecastSequence from './ForecastSequence/ForecastSequence';
+import Clothes from './Clothes/Clothes';
 
 
 export default function WeatherWrapper(){
@@ -25,6 +26,7 @@ export default function WeatherWrapper(){
     return(
         <div className="weather-wrapper">
             <CurrentWeather/>
+            {/* <Clothes/> */}
             <SelectedDayGraph/>
             <ForecastSequence/>
         </div>

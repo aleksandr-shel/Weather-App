@@ -57,5 +57,10 @@ span.degrees:hover{
 
 
 .clothes-recomendation{
-    background-color: lightblue;
+}
+
+.input-location-wrapper form input{
+    margin: 0 auto;
+    border:solid 1px #ccc;
+    border-radius: 10px;
 }

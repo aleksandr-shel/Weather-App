@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../wwwroot')));
 
 app.use('/api', apiRouter);
 
-app.get('/*', function(req, res) {
+app.get('*', function(req, res) {
   res.sendFile('index.html')
 });
 
