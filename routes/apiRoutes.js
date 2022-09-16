@@ -49,7 +49,7 @@ async function getLocationFromGoogleByCoords(latitude, longitude){
 }
 
 async function getNews(q = 'tech'){
-    const url = `https://newsapi.org/v2/everything?q=${q}&apiKey=${newsApiKey}&sortBy=publishedAt`;
+    const url = `https://newsapi.org/v2/everything?q=${q}&apiKey=${newsApiKey}&sortBy=publishedAt&language=en`;
     return await getData(url);
 }
 
@@ -67,7 +67,7 @@ setInterval(async () => {
 
     const data = await getNews();
     saveJson(data, 'news_data.json');
-},60*60* 1000);
+}, 60 * 60 *1000);
 
 
 router.get('/weatherForecast', async (req,res)=>{
