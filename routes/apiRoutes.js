@@ -98,11 +98,11 @@ router.get('/weatherForecast', async (req,res)=>{
 
 
 router.get('/tech-news', async(req,res)=>{
-    res.send(newsData);
+    // res.send(newsData);
 
     //do no uncomment!!
-    // const data = await getNews();
-    // res.send(data);
+    const data = await getNews();
+    res.send(data);
 })
 
 router.get('/location', async(req,res)=>{
