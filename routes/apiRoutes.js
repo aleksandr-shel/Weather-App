@@ -111,9 +111,4 @@ router.get('/location', async(req,res)=>{
     res.send(data)
 })
 
-
-router.get('/test', async(req,res)=>{
-
-})
-
 module.exports = router;

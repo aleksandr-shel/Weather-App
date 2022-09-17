@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {Avatar, Card, Button, CardContent, CardActions, Typography, Divider} from '@mui/material'
+import {Avatar, Card} from '@mui/material'
 import { setCelsius, setFahrenheit } from '../../store/slices/weatherSlice';
 import InputLocation from './InputLocation';
 
@@ -52,7 +52,7 @@ export default function CurrentWeather(){
                         {location.country}
                     </p>
                     <p>
-                        <span>{new Date(new Date(current.last_updated).getTime() + new Date().getTimezoneOffset() * 60 * 1000).toLocaleString('default',{weekday:'short'})}</span>
+                        <span>{new Date(new Date(current.last_updated).getTime()).toLocaleString('default',{weekday:'short'})}</span>
                         {' '}
                         <span>{new Date(current.last_updated).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit', hour12:true})}</span>
                         <span> Updated</span>
