@@ -61,13 +61,13 @@ function saveJson(json, jsonFileName){
     fs.writeFile(jsonFileName, JSON.stringify(json), 'utf8', ()=>{console.log('updated news_data.json')})
 }
 
-setInterval(async () => {
-    // const data = await getDummyData();
-    // saveJson(data, 'test.json');
+// setInterval(async () => {
+//     // const data = await getDummyData();
+//     // saveJson(data, 'test.json');
 
-    const data = await getNews();
-    saveJson(data, 'news_data.json');
-}, 60 * 60 *1000);
+//     const data = await getNews();
+//     saveJson(data, 'news_data.json');
+// }, 60 * 60 *1000);
 
 
 router.get('/weatherForecast', async (req,res)=>{

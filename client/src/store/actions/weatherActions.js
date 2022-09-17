@@ -6,7 +6,11 @@ import { setCurrentWeather, setForecast, setLoading, setLocation } from "../slic
 export function fetchWeatherData(){
     return async (dispatch)=>{
         dispatch(setLoading(true));
-        const data = await agent.Weather.getCurrentLocationData();
+
+        const location = await agent.Location.getLocation();
+
+        // const data = await agent.Weather.getCurrentLocationData();
+        const data = await agent.Weather.getAnotherLocationData(location.results[0].formatted_address);
         // console.log(data);
         dispatch(setCurrentWeather(data.current));
         dispatch(setForecast(data.forecast.forecastday));

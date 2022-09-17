@@ -8,11 +8,14 @@ export default function Article({article}){
 
     return(
         <Card>
-            <CardMedia 
-                component="img"
-                image={article.urlToImage}
-                alt={article.source.name}
-            />
+            <Link href={article.url} target='_blank'>
+                <CardMedia
+                    component='img'
+                    to={article.url} 
+                    image={article.urlToImage}
+                    alt={article.source.name}
+                />
+            </Link>
             <CardContent>
                 <Typography fontSize='1em' gutterBottom variant="h5" component="div">
                     {article.title}

@@ -74,9 +74,14 @@ const News = {
     getNews: () => requests.get(`/tech-news`)
 }
 
+const Location = {
+    getLocation: ()=>requests.get(`/location?lat=${coord.latitude}&lon=${coord.longitude}`)
+}
+
 const agent = {
     Weather,
-    News
+    News,
+    Location
 }
 
 export default agent;
