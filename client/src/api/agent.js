@@ -1,4 +1,5 @@
 import axios from 'axios';
+import store from './../store/store';
 
 class Coords{
     latitude;
@@ -41,8 +42,8 @@ class Coords{
     }
 }
 
-const coord = new Coords();
-coord.getLocationCoords();
+// const coord = new Coords();
+// coord.getLocationCoords();
 
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
@@ -66,7 +67,7 @@ const requests = {
 }
 
 const Weather = {
-    getCurrentLocationData: ()=> requests.get(`/weatherForecast?lat=${coord.latitude}&lon=${coord.longitude}`),
+    getCurrentLocationData: ()=> requests.get(`/weatherForecast?lat=${store.getState().locationReducer.lat}&lon=${store.getState().locationReducer.lon}`),
     getAnotherLocationData: (q)=> requests.get(`/weatherForecast?q=${q}`),
 }
 
@@ -75,7 +76,7 @@ const News = {
 }
 
 const Location = {
-    getLocation: ()=>requests.get(`/location?lat=${coord.latitude}&lon=${coord.longitude}`)
+    getLocation: ()=>requests.get(`/location?lat=${store.getState().locationReducer.lat}&lon=${store.getState().locationReducer.lon}`)
 }
 
 const agent = {
