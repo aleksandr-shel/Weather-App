@@ -25,7 +25,8 @@ async function getData(url){
     try{
         response = await axios.get(url);
     }catch(error){
-        throw new Error(error);
+        // throw new Error(error);
+        console.log(error);
     }
     return response.data;
 }
@@ -50,7 +51,11 @@ async function getLocationFromGoogleByCoords(latitude, longitude){
 
 async function getNews(q = 'tech'){
     const url = `https://newsapi.org/v2/everything?q=${q}&apiKey=${newsApiKey}&sortBy=publishedAt&language=en`;
-    return await getData(url);
+    try{
+        return await getData(url);
+    }catch(err){
+        return newsData;
+    }
 }
 
 async function getDummyData(){
